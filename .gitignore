@@ -1,0 +1,51 @@
+# Python compiled files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+*/bin/
+*/include/
+*/lib/
+*/lib64/
+
+# Build and distribution artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing artifacts
+.pytest_cache/
+*.pytest_cache
+coverage.xml
+.coverage
+*.cover
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.log
+*.bak
+*.swp
+*~
+
+# Documentation build artifacts
+docs/_build/
+docs/build/
+
+# Note: Add any sensitive files or local configs here
+# e.g., .env, local_settings.py
